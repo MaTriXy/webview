@@ -8,7 +8,6 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-
 public class MainActivity extends Activity {
 
     private WebView mWebView;
@@ -29,10 +28,10 @@ public class MainActivity extends Activity {
 
         // REMOTE RESOURCE
         // mWebView.loadUrl("http://example.com");
-        // mWebView.setWebViewClient(new MyAppWebViewClient());
+        // mWebView.setWebViewClient(new MyWebViewClient());
 
         // LOCAL RESOURCE
-        // mWebView.loadUrl("file:///android_asset/demo/index.html");
+        // mWebView.loadUrl("file:///android_asset/index.html");
     }
 
     // Prevent the back-button from closing the app
